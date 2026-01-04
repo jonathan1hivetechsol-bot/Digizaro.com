@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <Hero/>
+      <div>Welcome to Digizaro</div>
       <BuildAmazing isSpace={true} />
       <WorkGrow/>
       <Preferred/>
