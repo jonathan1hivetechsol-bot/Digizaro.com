@@ -14,7 +14,13 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <div>Welcome to Digizaro</div>
+      <section className="bg-primary py-20">
+        <div className="container">
+          <h1 className="text-white text-4xl">Professional SEO Services & Web Development by Digizaro</h1>
+          <p className="text-white mt-4">Boost your online presence with our expert services.</p>
+          <button className="bg-white text-primary py-3 px-12 rounded-lg mt-8">Get Started</button>
+        </div>
+      </section>
       <BuildAmazing isSpace={true} />
       <WorkGrow/>
       <Preferred/>
